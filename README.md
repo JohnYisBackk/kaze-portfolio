@@ -6,6 +6,8 @@ KAZE — meaning **風 (wind)** in Japanese — combines minimalism, Japanese ae
 
 ## 🌐 Live Demo
 
+https://johnyisbackk.github.io/kaze-portfolio/
+
 ## 🖼️ Preview
 
 ![KAZE Portfolio Preview](preview.png)
