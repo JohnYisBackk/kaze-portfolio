@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="KAZE — Creative frontend developer portfolio focused on clean design, motion and interactive digital experiences."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>KAZE — Creative Developer Portfolio</title>
+  </head>
+  <body>
+    <!-- ========================================
+         HEADER
+    ========================================= -->
+
+    <header class="header" id="header">
+      <div class="header-inner">
+        <a href="#home" class="logo"> KAZE </a>
+
+        <nav class="nav" id="nav">
+          <a href="#home" class="nav-link active"> Home </a>
+          <a href="#about" class="nav-link"> About </a>
+          <a href="#work" class="nav-link"> Work </a>
+          <a href="#contact" class="nav-link"> Contact </a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="theme-indicator" type="button" aria-label="Theme">
+            <span class="theme-dot"></span>
+          </button>
+
+          <a href="#contact" class="header-contact">
+            <span>Let's create</span>
+
+            <span class="header-contact-line"></span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu -->
+
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          type="button"
+          aria-label="Open navigation"
+        >
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- ========================================
+         MAIN
+    ========================================= -->
+
+    <main>
+      <!-- ========================================
+           01 — HERO
+      ========================================= -->
+
+      <section class="hero section" id="home">
+        <div class="hero-background">
+          <img src="images/home-img.png" alt="" class="hero-background-image" />
+
+          <div class="hero-overlay"></div>
+        </div>
+
+        <div class="section-line hero-line"></div>
+
+        <div class="container hero-container">
+          <div class="hero-content">
+            <div class="section-label">
+              <span class="section-number"> 01 </span>
+
+              <span class="section-small-line"></span>
+
+              <span class="section-name"> Frontend Developer </span>
+            </div>
+
+            <h1 class="hero-title">
+              Ideas
+              <br />
+              Into Experiences
+            </h1>
+
+            <p class="hero-description">
+              I build modern, interactive and memorable
+              <br />
+              web experiences that make an impact.
+            </p>
+
+            <a href="#about" class="explore-link">
+              <span class="explore-circle">
+                <span class="explore-line"></span>
+              </span>
+
+              <span class="explore-text"> Explore More </span>
+            </a>
+          </div>
+
+          <div class="hero-side-text">
+            <span>CODE</span>
+            <span>DESIGN</span>
+            <span>CREATE</span>
+            <span>INSPIRE</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+           02 — ABOUT
+      ========================================= -->
+
+      <section class="about section" id="about">
+        <div class="section-line hero-line"></div>
+
+        <div class="container about-section">
+          <div class="about-content">
+            <div class="section-label">
+              <span class="section-number"> 02 </span>
+
+              <span class="section-small-line"></span>
+
+              <span class="section-name"> About Me </span>
+            </div>
+
+            <h2 class="section-title about-title">
+              A Developer
+              <br />
+              With a Creative Mind
+            </h2>
+
+            <p class="about-description">
+              I'm a frontend developer who loves turning ideas
+              <br />
+              into beautiful, interactive and user-friendly websites.
+              <br />
+              I focus on clean design, smooth animations and
+              <br />
+              meaningful digital experiences.
+            </p>
+
+            <a href="#work" class="outline-button">
+              <span>More About Me</span>
+              <i data-lucide="arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="about-image-wrapper">
+            <img
+              src="images/about-img.png"
+              alt="Creative developer"
+              class="about-image"
+            />
+          </div>
+
+          <div class="about-skills">
+            <div class="skill-item">
+              <div class="skill-heading">
+                <span>HTML</span>
+                <span>95%</span>
+              </div>
+
+              <div class="skill-line">
+                <span class="skill-progress" style="--progress: 95%"></span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-heading">
+                <span>CSS</span>
+                <span>90%</span>
+              </div>
+
+              <div class="skill-line">
+                <span class="skill-progress" style="--progress: 90%"></span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-heading">
+                <span>JavaScript</span>
+                <span>85%</span>
+              </div>
+
+              <div class="skill-line">
+                <span class="skill-progress" style="--progress: 85%"></span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-heading">
+                <span>GSAP</span>
+                <span>80%</span>
+              </div>
+
+              <div class="skill-line">
+                <span class="skill-progress" style="--progress: 80%"></span>
+              </div>
+            </div>
+
+            <blockquote class="about-quote">
+              “Good design is a form
+              <br />
+              of mindfulness.”
+            </blockquote>
+
+            <span class="quote-line"></span>
+          </div>
+
+          <div class="about-decoration" aria-hidden="true">
+            <img src="images/about-bg.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+           03 — WORK
+      ========================================= -->
+
+      <section class="work section" id="work">
+        <div class="section-line hero-line"></div>
+
+        <div class="container work-container">
+          <div class="work-intro">
+            <div class="section-label">
+              <span class="section-number">03</span>
+
+              <span class="section-small-line"></span>
+
+              <span class="section-name"> My Work </span>
+            </div>
+
+            <h2 class="section-title">Selected Projects</h2>
+
+            <p class="work-description">
+              A small selection of projects that combine
+              <br />
+              clean design with interactive experiences.
+            </p>
+
+            <a href="#" class="text-link">
+              <span>View All Projects</span>
+
+              <i data-lucide="arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Projects Grid -->
+
+          <div class="projects-grid">
+            <!-- PROJECT 1 -->
+
+            <article class="project-card">
+              <a href="#" class="project-link">
+                <div class="project-image-wrapper">
+                  <img
+                    src="images/project 1.png"
+                    alt="Zen Flow"
+                    class="project-image"
+                  />
+                </div>
+
+                <div class="project-info">
+                  <div>
+                    <h3 class="project-title">Zen Flow</h3>
+
+                    <p class="project-type">Creative Portfolio</p>
+                  </div>
+
+                  <span class="project-arrow">
+                    <i data-lucide="arrow-right"></i>
+                  </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- PROJECT 2 -->
+
+            <article class="project-card">
+              <a href="#" class="project-link">
+                <div class="project-image-wrapper">
+                  <img
+                    src="images/project 2.png"
+                    alt="Lumina"
+                    class="project-image"
+                  />
+                </div>
+
+                <div class="project-info">
+                  <div>
+                    <h3 class="project-title">Lumina</h3>
+
+                    <p class="project-type">Landing Page</p>
+                  </div>
+
+                  <span class="project-arrow">
+                    <i data-lucide="arrow-right"></i>
+                  </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- PROJECT 3 -->
+
+            <article class="project-card">
+              <a href="#" class="project-link">
+                <div class="project-image-wrapper">
+                  <img
+                    src="images/project 3.png"
+                    alt="Serenity"
+                    class="project-image"
+                  />
+                </div>
+
+                <div class="project-info">
+                  <div>
+                    <h3 class="project-title">Serenity</h3>
+
+                    <p class="project-type">Concept Website</p>
+                  </div>
+
+                  <span class="project-arrow">
+                    <i data-lucide="arrow-right"></i>
+                  </span>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+           04 — CONTACT
+      ========================================= -->
+
+      <section class="contact section" id="contact">
+        <div class="section-line hero-line"></div>
+
+        <div class="contact-art">
+          <img
+            src="images/contact-img.png"
+            alt=""
+            class="contact-circle-image"
+          />
+        </div>
+
+        <div class="container contact-container">
+          <div class="contact-content">
+            <div class="section-label">
+              <span class="section-number"> 04 </span>
+
+              <span class="section-small-line"></span>
+
+              <span class="section-name"> Get In Touch </span>
+            </div>
+
+            <h2 class="section-title contact-title">
+              Let’s Create
+              <br />
+              Something Great
+            </h2>
+
+            <p class="contact-description">
+              Have a project in mind or just want to say hi?
+              <br />
+              I'm always open to new opportunities.
+            </p>
+
+            <a
+              href="mailto:hello@samueljahn.sk"
+              class="outline-button contact-button"
+            >
+              <span>Send a Message</span>
+
+              <i data-lucide="arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="contact-links">
+            <a href="mailto:hello@samueljahn.sk" class="contact-item">
+              <div class="contact-icon">
+                <i data-lucide="mail"></i>
+              </div>
+
+              <div class="contact-item-content">
+                <span class="contact-label"> Email </span>
+
+                <span class="contact-value"> hello@samueljahn.sk </span>
+              </div>
+            </a>
+
+            <a
+              href="https://github.com/samojahn200215"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-item"
+            >
+              <div class="contact-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.3-.4 6.8-1.6 6.8-7A5.4 5.4 0 0 0 19.3 4 5 5 0 0 0 19.2.5S18 0 15 2a13.4 13.4 0 0 0-7 0C5 0 3.8.5 3.8.5A5 5 0 0 0 3.7 4a5.4 5.4 0 0 0-1.5 3.5c0 5.4 3.5 6.6 6.8 7A4.8 4.8 0 0 0 8 18v4"
+                  />
+                  <path d="M8 19c-3 .9-3-1.5-4-2" />
+                </svg>
+              </div>
+
+              <div class="contact-item-content">
+                <span class="contact-label"> GitHub </span>
+
+                <span class="contact-value"> github.com/samojahn200215 </span>
+              </div>
+            </a>
+
+            <a href="#" class="contact-item">
+              <div class="contact-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"
+                  />
+                  <rect width="4" height="12" x="2" y="9" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </div>
+
+              <div class="contact-item-content">
+                <span class="contact-label"> LinkedIn </span>
+
+                <span class="contact-value"> linkedin.com/in/samueljahn </span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========================================
+         FOOTER
+    ========================================= -->
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <p class="footer-copyright">© 2026 Samuel Jahn. All rights reserved.</p>
+
+        <div class="footer-right">
+          <span>Built with passion</span>
+          <span class="footer-line"></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
